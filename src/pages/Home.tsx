@@ -285,13 +285,6 @@ export default function Home({ onNavigateToPage, onOpenQuoteModal }: HomeProps) 
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16">
             <div className="text-left max-w-2xl space-y-4">
-              <div className="inline-flex items-center space-x-2 bg-[#00AEEF]/10 border border-[#00AEEF]/25 text-[#00AEEF] text-[10px] font-mono tracking-widest uppercase px-3.5 py-1.5 rounded-full shadow-sm">
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00AEEF] opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-[#00AEEF]"></span>
-                </span>
-                <span>Nossas Especialidades</span>
-              </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-black text-[#001E33] tracking-tight">
                 Portfólio de <span className="bg-gradient-to-r from-[#004D80] to-[#00AEEF] bg-clip-text text-transparent">Serviços Corporativos</span>
               </h2>
@@ -396,10 +389,6 @@ export default function Home({ onNavigateToPage, onOpenQuoteModal }: HomeProps) 
             className="flex flex-col md:flex-row md:items-end justify-between mb-16 border-b border-slate-100 pb-8"
           >
             <div className="text-left space-y-4 max-w-2xl">
-              <div className="inline-flex items-center space-x-2 bg-[#004D80]/5 border border-[#004D80]/15 text-[#004D80] text-[10px] font-mono tracking-widest uppercase px-3.5 py-1.5 rounded-full">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#00AEEF] animate-pulse" />
-                <span>Catálogo Comercial</span>
-              </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-black text-[#001E33] tracking-tight">
                 Produtos Industriais <span className="bg-gradient-to-r from-[#004D80] to-[#00AEEF] bg-clip-text text-transparent">em Destaque</span>
               </h2>
@@ -487,10 +476,6 @@ export default function Home({ onNavigateToPage, onOpenQuoteModal }: HomeProps) 
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-center max-w-3xl mx-auto mb-20 space-y-4"
           >
-            <div className="inline-flex items-center space-x-2 bg-white/5 border border-white/10 text-[#00AEEF] text-[10px] font-mono tracking-widest uppercase px-3.5 py-1.5 rounded-full">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#00AEEF] animate-ping" />
-              <span>Diferencial Corporativo</span>
-            </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-black text-white tracking-tight">
               Por Que Escolher a <span className="bg-gradient-to-r from-[#00AEEF] to-white bg-clip-text text-transparent">Lizando?</span>
             </h2>
@@ -544,10 +529,6 @@ export default function Home({ onNavigateToPage, onOpenQuoteModal }: HomeProps) 
             className="flex flex-col md:flex-row md:items-end justify-between mb-16 border-b border-slate-150 pb-8"
           >
             <div className="text-left space-y-4 max-w-2xl">
-              <div className="inline-flex items-center space-x-2 bg-[#00AEEF]/10 border border-[#00AEEF]/25 text-[#00AEEF] text-[10px] font-mono tracking-widest uppercase px-3.5 py-1.5 rounded-full">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#004D80]" />
-                <span>Portfólio de Sucesso</span>
-              </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-black text-[#001E33] tracking-tight">
                 Projetos Recentes <span className="bg-gradient-to-r from-[#004D80] to-[#00AEEF] bg-clip-text text-transparent">Executados</span>
               </h2>
@@ -616,10 +597,6 @@ export default function Home({ onNavigateToPage, onOpenQuoteModal }: HomeProps) 
             <div className="absolute top-0 right-0 w-96 h-96 bg-[#00AEEF]/5 rounded-full blur-3xl -mr-20 -mt-20" />
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
               <div className="lg:col-span-8 space-y-4">
-                <div className="inline-flex items-center space-x-2 bg-white/10 border border-white/20 text-[#00AEEF] text-[10px] font-mono tracking-widest uppercase px-3.5 py-1.5 rounded-full">
-                  <Award className="w-4 h-4" />
-                  <span>Conteúdo Local Cadastrado</span>
-                </div>
                 <h3 className="text-2xl sm:text-3xl font-display font-bold leading-tight">
                   Parceiro Homologado da ANPG para Operações de Petróleo e Gás
                 </h3>
@@ -650,13 +627,6 @@ export default function Home({ onNavigateToPage, onOpenQuoteModal }: HomeProps) 
             className="flex flex-col md:flex-row md:items-end justify-between mb-16 border-b border-slate-200/50 pb-8"
           >
             <div className="text-left space-y-4">
-              <div className="inline-flex items-center space-x-2 bg-[#00AEEF]/10 border border-[#00AEEF]/25 text-[#00AEEF] text-[10px] font-mono tracking-widest uppercase px-3.5 py-1.5 rounded-full shadow-sm relative">
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00AEEF] opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-[#00AEEF]"></span>
-                </span>
-                <span>Comunicação Lizando</span>
-              </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-black text-[#001E33] tracking-tight">
                 Notícias Recentes <span className="bg-gradient-to-r from-[#004D80] to-[#00AEEF] bg-clip-text text-transparent">&amp; Análises</span>
               </h2>
