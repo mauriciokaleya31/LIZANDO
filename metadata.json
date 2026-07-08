@@ -1,0 +1,6 @@
+{
+  "name": "Lizando Comércio e Serviços",
+  "description": "Website institucional da Lizando Comércio, Serviços, Importação e Exportação, Lda. Conectamos Angola ao Mercado Global.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
