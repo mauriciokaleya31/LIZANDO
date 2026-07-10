@@ -220,13 +220,22 @@ export default function ContactForm() {
                 /* Standard dynamic contact submission form fields */
                 <form onSubmit={handleSubmit} className="space-y-6 flex flex-col justify-between h-full" id="contact-institutional-form">
                   <div className="space-y-6">
-                    <div>
-                      <h3 className="text-lg font-display font-bold text-gray-950 uppercase tracking-wide">
-                        Formulário de Mensagem
-                      </h3>
-                      <p className="text-xs sm:text-sm text-gray-500 font-light mt-1">
-                        Preencha os campos abaixo e faça-nos a sua consulta corporativa directa.
-                      </p>
+                    <div className="relative rounded-2xl overflow-hidden h-44 border border-gray-150 shadow-inner group">
+                      <img
+                        src="https://visa.onlyvibes.online/wp-content/uploads/2026/07/pagiina-do-conatcctto.png"
+                        alt="Atendimento ao Cliente Lizando"
+                        className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700"
+                        referrerPolicy="no-referrer"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-900/30 to-transparent" />
+                      <div className="absolute bottom-4 left-5 right-5 text-white">
+                        <h3 className="text-base sm:text-lg font-display font-black uppercase tracking-wide text-white">
+                          Formulário de Mensagem
+                        </h3>
+                        <p className="text-[11px] sm:text-xs text-gray-200 font-light mt-0.5">
+                          Preencha os campos abaixo e faça-nos a sua consulta corporativa directa.
+                        </p>
+                      </div>
                     </div>
 
                     <div className="h-px bg-gray-100" />

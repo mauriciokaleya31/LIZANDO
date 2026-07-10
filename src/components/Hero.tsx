@@ -15,15 +15,15 @@ interface HeroProps {
 // Set of alternating cinematic backgrounds representing the logistics vibe in Angola & globally
 const HERO_BG_IMAGES = [
   {
-    url: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1920&q=80",
+    url: "https://visa.onlyvibes.online/wp-content/uploads/2026/07/danalbangola-3.png",
     caption: "Logística Portuária de Contentores - Conexões Globais"
   },
   {
-    url: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1920&q=80",
+    url: "https://visa.onlyvibes.online/wp-content/uploads/2026/07/danalbangola-2.png",
     caption: "Transporte Multimodal de Longa Distância"
   },
   {
-    url: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1920&q=80",
+    url: "https://visa.onlyvibes.online/wp-content/uploads/2026/07/15.png",
     caption: "Assessoria Aduaneira e Reuniões Corporativas Modernas"
   }
 ];

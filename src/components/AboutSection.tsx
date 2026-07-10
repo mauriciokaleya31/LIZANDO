@@ -21,7 +21,7 @@ export default function AboutSection() {
             {/* Main Image */}
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
               <img
-                src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&q=80"
+                src="https://visa.onlyvibes.online/wp-content/uploads/2026/07/danalbangola-2.png"
                 alt="Gestores corporativos de comércio Lizando"
                 className="w-full h-[520px] object-cover hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"

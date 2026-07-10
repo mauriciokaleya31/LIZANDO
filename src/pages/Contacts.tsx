@@ -16,7 +16,7 @@ export default function Contacts({ onOpenQuoteModal }: ContactsProps) {
     <div className="w-full">
       {/* CONTACTS BANNER */}
       <section className="relative h-[35vh] min-h-[250px] flex items-center justify-center overflow-hidden bg-[#001729]">
-        <div className="absolute inset-0 bg-cover bg-center opacity-65 scale-102" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=1920&q=80')` }} />
+        <div className="absolute inset-0 bg-cover bg-center opacity-65 scale-102" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1920&q=80')` }} />
         <div className="absolute inset-0 bg-gradient-to-t from-[#001E33] via-[#00101F]/90 to-transparent" />
         <div className="relative z-10 text-center text-white px-6">
           <span className="text-xs font-mono tracking-widest text-[#00AEEF] uppercase block mb-3">Fale Connosco Directamente</span>

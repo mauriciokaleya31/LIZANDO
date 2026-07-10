@@ -96,7 +96,7 @@ export const SERVICES_DETAILED: ServiceDetail[] = [
       "Equipas experientes e certificadas para trabalhar em ambientes de alto risco."
     ],
     iconName: "Flame",
-    imageUrl: "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=800&q=80"
+    imageUrl: "https://visa.onlyvibes.online/wp-content/uploads/2026/07/Oil-Gas-Support.png"
   },
   {
     id: "procurement-industrial",
@@ -110,7 +110,7 @@ export const SERVICES_DETAILED: ServiceDetail[] = [
       "Acompanhamento em tempo real desde a ordem de compra até à entrega final."
     ],
     iconName: "SearchCode",
-    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80"
+    imageUrl: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "catering-hospitality",
@@ -124,7 +124,7 @@ export const SERVICES_DETAILED: ServiceDetail[] = [
       "Fornecedores locais integrados para incentivar o desenvolvimento económico regional."
     ],
     iconName: "Utensils",
-    imageUrl: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
+    imageUrl: "https://visa.onlyvibes.online/wp-content/uploads/2026/07/Catering-Hospitality.png"
   },
   {
     id: "logistica-integrada",
@@ -152,7 +152,7 @@ export const SERVICES_DETAILED: ServiceDetail[] = [
       "Equipamentos de alta performance de marcas de referência mundial."
     ],
     iconName: "Layers",
-    imageUrl: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
+    imageUrl: "https://visa.onlyvibes.online/wp-content/uploads/2026/07/Rental-ServicesRental-Services.png"
   }
 ];
 
@@ -188,7 +188,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     name: "Gerador Diesel Silenciado de 250kVA",
     category: "Equipamentos Industriais",
     description: "Grupo gerador insonorizado de alto rendimento, projetado para fornecimento contínuo de energia em bases industriais e plataformas offshore.",
-    imageUrl: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://visa.onlyvibes.online/wp-content/uploads/2026/07/Gerador-Diesel-Silenciado-de-250kVA.png",
     specification: ["Potência: 250 kVA", "Frequência: 50 Hz", "Combustível: Diesel", "Nível de Ruído: 65 dB(A) a 7m"]
   },
   {
@@ -236,7 +236,7 @@ export const PRODUCTS_DATA: ProductItem[] = [
     name: "Bomba Hidráulica Centrífuga Industrial 75kW",
     category: "Equipamentos Industriais",
     description: "Bomba industrial para transferência de fluidos de alta viscosidade, equipada com motor elétrico trifásico de alta eficiência energética.",
-    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
     specification: ["Potência do Motor: 75 kW", "Caudal Máximo: 220 m³/h", "Material do Impulsor: Bronze / Inox", "Proteção: IP55 Class F"]
   },
   {
@@ -267,8 +267,8 @@ export const PROJECTS_DATA: ProjectDetail[] = [
     year: "2025",
     servicesProvided: ["Ship Chandling", "Oil & Gas Support", "Catering & Hospitality"],
     description: "Cooperação bem-sucedida de trading e logística internacional, provendo apoio direto à tripulação do Navio-Sonda que operava no prestigiado Bloco 15 offshore angolano. O projeto consistiu no provisionamento total de alimentos congelados, EPIs, e substituição célere de peças mecânicas importadas de emergência, sem nenhuma perda de dia de trabalho (zero downtime).",
-    imageUrl: "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=800&q=80",
-    beforeImageUrl: "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://visa.onlyvibes.online/wp-content/uploads/2026/07/Suporte-e-Abastecimento-de-Navio-Sonda-Block-15.png",
+    beforeImageUrl: "https://visa.onlyvibes.online/wp-content/uploads/2026/07/Suporte-e-Abastecimento-de-Navio-Sonda-Block-15.png",
     afterImageUrl: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
   },
   {
@@ -293,7 +293,7 @@ export const PROJECTS_DATA: ProjectDetail[] = [
     year: "2025",
     servicesProvided: ["Catering & Hospitality", "Rental Services"],
     description: "Gestão completa dos serviços de hotelaria, fornecimento de ementas diárias equilibradas e lavandaria para um acampamento residencial de 250 engenheiros e técnicos de campo. Fornecemos também geradores industriais em regime de aluguer contínuo.",
-    imageUrl: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
+    imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "proj-4",
@@ -341,7 +341,7 @@ export const NEWS_DATA: NewsPost[] = [
     author: "Especialista Aduaneiro",
     summary: "Análise detalhada sobre as recentes diretrizes de importação facilitada e regimes de benefícios tributários industriais.",
     content: "A Administração Geral Tributária (AGT) implementou um conjunto de medidas que visam desburocratizar a importação de bens essenciais e sobressalentes para o setor produtivo. No artigo de hoje, a nossa equipa jurídica e aduaneira explica como a sua empresa pode beneficiar de isenções tributárias, desalfandegamento prévio e regimes preferenciais no âmbito de parcerias industriais em Angola. Facilitar os trâmites legais é o primeiro passo para o sucesso internacional.",
-    imageUrl: "https://images.unsplash.com/photo-1542744094-3a31f103e35f?auto=format&fit=crop&w=800&q=80"
+    imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "news-4",
@@ -364,9 +364,9 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
 ];
 
 export const TEAM_MEMBERS: TeamMember[] = [
-  { name: "Dr. Adelino Lizando", role: "CEO & Fundador", imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&h=300&q=80" },
+  { name: "Dr. Adelino Lizando", role: "CEO & Fundador", imageUrl: "https://images.unsplash.com/photo-1507152832244-10d49c7def8f?auto=format&fit=crop&w=300&h=300&q=80" },
   { name: "Dra. Beatriz Santos", role: "Diretora de Operações Globais", imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&h=300&q=80" },
-  { name: "Eng. Cláudio Neto", role: "Diretor de Procurement Técnico", imageUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&h=300&q=80" }
+  { name: "Eng. Cláudio Neto", role: "Diretor de Procurement Técnico", imageUrl: "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&w=300&h=300&q=80" }
 ];
 
 export const FAQS_DATA: FAQItem[] = [
@@ -390,7 +390,7 @@ export const FAQS_DATA: FAQItem[] = [
 
 export const GALLERY_DATA = [
   { id: "gal-1", title: "Operações Portuárias", category: "Marítimo", imageUrl: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=800&q=80" },
-  { id: "gal-2", title: "Catering Industrial", category: "Catering", imageUrl: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" },
+  { id: "gal-2", title: "Catering Industrial", category: "Catering", imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" },
   { id: "gal-3", title: "Armazenamento", category: "Logística", imageUrl: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80" },
   { id: "gal-4", title: "Suporte Offshore", category: "Oil & Gas", imageUrl: "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=800&q=80" }
 ];

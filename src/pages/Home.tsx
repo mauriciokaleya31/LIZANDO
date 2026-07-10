@@ -15,7 +15,7 @@ const TESTIMONIALS = [
     name: "Dr. António Silva",
     role: "Diretor de Operações • Angola Distribuidora S.A.",
     quote: "A Lizando Lda tornou as nossas importações muito mais rápidas e eficientes. A desalfandegação de insumos alimentares e industriais que antes demorava semanas flui agora com total planeamento operacional.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80"
+    image: "https://images.unsplash.com/photo-1507152832244-10d49c7def8f?auto=format&fit=crop&w=150&h=150&q=80"
   },
   {
     name: "Dr.ª Sandra Melo",
@@ -27,7 +27,7 @@ const TESTIMONIALS = [
     name: "Dr. Francisco Van-Dúnem",
     role: "Administrador de Célula Fabril • AngoIndústria",
     quote: "Sua agilidade na consolidação e coordenação de fretes vindos da Turquia e Portugal reduziu drasticamente nossos custos. A transparência nos relatórios de custos de procurement é irrepreensível.",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&h=150&q=80"
+    image: "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&w=150&h=150&q=80"
   },
   {
     name: "Eng.ª Ana Paula Santos",
@@ -39,13 +39,13 @@ const TESTIMONIALS = [
     name: "Dr. Manuel Gourgel",
     role: "Diretor de Compras • Minerais de Angola Lda.",
     quote: "A consultoria comercial e o mapeamento de fornecedores globais feitos pela equipa da Lizando superaram as nossas expectativas. Conseguimos novos fornecedores qualificados em tempo recorde.",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&h=150&q=80"
+    image: "https://images.unsplash.com/photo-1489980508314-941910ded1f4?auto=format&fit=crop&w=150&h=150&q=80"
   },
   {
     name: "Dr.ª Beatriz da Costa",
     role: "Supervisora de Logística • AgroAngola S.A.",
     quote: "Importar maquinaria agrícola com a assessoria aduaneira e logística da Lizando foi um processo transparente, com cumprimento rigoroso de prazos e apoio permanente.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&h=150&q=80"
+    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=150&h=150&q=80"
   }
 ];
 
@@ -80,9 +80,9 @@ export default function Home({ onNavigateToPage, onOpenQuoteModal }: HomeProps) 
   const [currentHeroBg, setCurrentHeroBg] = useState(0);
 
   const heroBgs = [
-    "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=1920&q=80",
-    "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1920&q=80",
-    "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1920&q=80"
+    "https://visa.onlyvibes.online/wp-content/uploads/2026/07/danalbangola-3.png",
+    "https://visa.onlyvibes.online/wp-content/uploads/2026/07/danalbangola-2.png",
+    "https://visa.onlyvibes.online/wp-content/uploads/2026/07/15.png"
   ];
 
   // Auto-play interval for hero backgrounds
@@ -266,7 +266,7 @@ export default function Home({ onNavigateToPage, onOpenQuoteModal }: HomeProps) 
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-100 aspect-4/3">
                 <img
-                  src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80"
+                  src="https://visa.onlyvibes.online/wp-content/uploads/2026/07/danalbangola-2.png"
                   alt="Operações Portuárias e Importação Lizando"
                   className="w-full h-full object-cover"
                 />

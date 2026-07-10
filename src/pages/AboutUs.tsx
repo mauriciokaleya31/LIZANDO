@@ -5,9 +5,8 @@
 
 import { motion } from "motion/react";
 import { Compass, Target, Star, Shield, Award, Users, CheckCircle, ArrowRight } from "lucide-react";
-import { TIMELINE_EVENTS, TEAM_MEMBERS, GALLERY_DATA } from "../data/websiteData";
+import { TIMELINE_EVENTS, GALLERY_DATA } from "../data/websiteData";
 import { TypewriterTitle } from "../components/TypewriterTitle";
-import teamImg from "../assets/images/regenerated_image_1783546540916.png";
 
 interface AboutUsProps {
   onNavigateToPage: (pageId: string) => void;
@@ -86,7 +85,7 @@ export default function AboutUs({ onNavigateToPage }: AboutUsProps) {
               <div className="aspect-video sm:aspect-[4/3] rounded-3xl overflow-hidden border border-slate-150 shadow-md">
                 <img 
                   id="quem-somos-team-img"
-                  src={teamImg} 
+                  src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80" 
                   alt="Operações de Logística em Angola" 
                   className="w-full h-full object-cover" 
                 />
@@ -150,7 +149,7 @@ export default function AboutUs({ onNavigateToPage }: AboutUsProps) {
               {/* Imagem representativa de compromisso e parceria de longo prazo */}
               <div className="aspect-video rounded-3xl overflow-hidden border border-slate-150 shadow-md">
                 <img 
-                  src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80" 
                   alt="Princípios e Qualidade Lizando" 
                   className="w-full h-full object-cover" 
                 />
@@ -201,32 +200,6 @@ export default function AboutUs({ onNavigateToPage }: AboutUsProps) {
                 <h3 className="text-lg font-display font-bold text-white mt-1">{evt.title}</h3>
                 <p className="text-xs sm:text-sm text-gray-400 font-light mt-2 max-w-2xl leading-relaxed">{evt.description}</p>
               </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* EQUIPA DEDICADA */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="text-xs font-bold text-[#00AEEF] tracking-widest uppercase block">Nossa Liderança</span>
-            <h2 className="text-3xl sm:text-4xl font-display font-bold text-[#001E33] tracking-tight mt-3">Equipa de Gestão Estratégica</h2>
-            <div className="w-12 h-1 bg-[#004D80] rounded mx-auto mt-4" />
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {TEAM_MEMBERS.map((member, idx) => (
-              <div key={idx} className="bg-slate-50 border border-slate-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all">
-                <div className="aspect-square bg-slate-200 overflow-hidden relative">
-                  <img src={member.imageUrl} alt={member.name} className="w-full h-full object-cover" />
-                </div>
-                <div className="p-6 text-center">
-                  <h3 className="text-lg font-display font-bold text-[#001E33]">{member.name}</h3>
-                  <p className="text-xs text-[#00AEEF] font-mono tracking-wider mt-1 uppercase">{member.role}</p>
-                  <p className="text-[11px] text-slate-500 font-light mt-3 leading-relaxed">Profissional poliglota altamente qualificado com anos de fomento em trading.</p>
-                </div>
-              </div>
             ))}
           </div>
         </div>
